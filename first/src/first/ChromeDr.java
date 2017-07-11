@@ -11,6 +11,7 @@ public class ChromeDr {
 		System.setProperty("webdriver.chrome.driver", "E:\\software\\chromedriver_win32\\chromedriver");
 		WebDriver f = new ChromeDriver();
 		f.get("http://www.fb.com");
+		f.close();
 	}
 
 }
